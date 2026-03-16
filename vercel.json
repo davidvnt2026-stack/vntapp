@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/webhook/shopify", "destination": "https://steady-rooster-346.convex.site/webhook/shopify" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
