@@ -1145,7 +1145,7 @@ export const registerWebhooks = action({
     // Get the webhook URL (your Convex HTTP endpoint)
     const webhookUrl = process.env.CONVEX_SITE_URL 
       ? `${process.env.CONVEX_SITE_URL}/webhook/shopify`
-      : "https://woozy-lark-822.convex.site/webhook/shopify";
+      : "https://brazen-lemming-650.convex.site/webhook/shopify";
 
     // Topics to subscribe to
     const topics = [
@@ -1836,7 +1836,7 @@ export const autoSetupNewStore = internalAction({
       const apiVersion = "2024-01";
       const webhookUrl = process.env.CONVEX_SITE_URL
         ? `${process.env.CONVEX_SITE_URL}/webhook/shopify`
-        : "https://woozy-lark-822.convex.site/webhook/shopify";
+        : "https://brazen-lemming-650.convex.site/webhook/shopify";
 
       const topics = [
         "orders/create",
